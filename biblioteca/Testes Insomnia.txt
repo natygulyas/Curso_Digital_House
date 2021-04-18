@@ -1,0 +1,98 @@
+LIVROS TESTADOS:
+[
+  {
+    "id": 1,
+    "nome": "Livro para testar a busca",
+    "autor": "autor",
+    "sinopse": "Só para teste mesmo",
+    "dataLancamento": "1964-01-01",
+    "dataAluguel": "2021-04-15",
+    "estado": "Indisponível",
+    "createdAt": "2021-04-17T22:28:37.000Z",
+    "updatedAt": "2021-04-17T22:28:37.000Z"
+  },
+  {
+    "id": 2,
+    "nome": "Outro livro",
+    "autor": "outro autor",
+    "sinopse": "Só para teste mesmo",
+    "dataLancamento": "2021-01-01",
+    "dataAluguel": null,
+    "estado": "Disponível",
+    "createdAt": "2021-04-17T22:31:08.000Z",
+    "updatedAt": "2021-04-17T22:31:08.000Z"
+  },
+  {
+    "id": 3,
+    "nome": "Ultimo livro",
+    "autor": "autor desconhecido",
+    "sinopse": "E mais um teste",
+    "dataLancamento": "2020-02-03",
+    "dataAluguel": null,
+    "estado": "Disponível",
+    "createdAt": "2021-04-17T22:31:26.000Z",
+    "updatedAt": "2021-04-17T22:31:26.000Z"
+  },
+  {
+    "id": 4,
+    "nome": "Testando",
+    "autor": "autor desconhecido",
+    "sinopse": "É só mais um teste",
+    "dataLancamento": "2019-04-20",
+    "dataAluguel": "2021-04-17",
+    "estado": "Indisponível",
+    "createdAt": "2021-04-17T22:31:36.000Z",
+    "updatedAt": "2021-04-17T22:31:36.000Z"
+  },
+  {
+    "id": 5,
+    "nome": "Testezinho",
+    "autor": "mais um autor",
+    "sinopse": "É só mais um teste",
+    "dataLancamento": "2019-04-20",
+    "dataAluguel": "2021-04-17",
+    "estado": "Indisponível",
+    "createdAt": "2021-04-17T22:32:44.000Z",
+    "updatedAt": "2021-04-17T22:34:15.000Z"
+  }
+]
+
+
+
+
+LOCATÁRIOS TESTADOS:
+
+[
+  {
+    "id": 1,
+    "nome": "José",
+    "cpf": 11122233300,
+    "situacao": true,
+    "createdAt": "2021-04-17T22:55:53.000Z",
+    "updatedAt": "2021-04-17T22:55:53.000Z"
+  },
+  {
+    "id": 2,
+    "nome": "Natasha",
+    "cpf": 12345678910,
+    "situacao": true,
+    "createdAt": "2021-04-17T22:56:22.000Z",
+    "updatedAt": "2021-04-17T22:56:22.000Z"
+  },
+  {
+    "id": 3,
+    "nome": "Fulana",
+    "cpf": 99988877760,
+    "situacao": true,
+    "createdAt": "2021-04-17T22:57:00.000Z",
+    "updatedAt": "2021-04-17T22:57:00.000Z"
+  },
+  {
+    "id": 4,
+    "nome": "Ciclano",
+    "cpf": 25536914700,
+    "situacao": false,
+    "createdAt": "2021-04-17T22:57:24.000Z",
+    "updatedAt": "2021-04-17T22:57:24.000Z"
+  }
+]

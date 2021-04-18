@@ -1,7 +1,7 @@
 //quando nosso servidor for chamar a model ele chama um INDEX por padrão
 const dbConfig = require ("../config/db.config"); //busca as configurações de conexao
 
-const Sequelize = require ("sequelize"); //cria a instancia para conectar
+const Sequelize = require ("sequelize"); 
 
 //abaixo os parametros para essa conexão
 const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
@@ -18,12 +18,12 @@ const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
 //basicamente o que precisa para configurar nossa rota do banco de dados
 const db = {};
 
-//aqui ele armazena tudo na const db
+
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
-//Inserir para o sequelize pra criar a tabela, ele vai jogar a model tutorial no objeto db:
+
 db.livros = require ("./livro.model")(sequelize, Sequelize);
 db.locatarios = require ("./locatario.model")(sequelize, Sequelize);
 
-module.exports = db; //aqui ele exporta o db para o server
+module.exports = db; //exporta o db para o server

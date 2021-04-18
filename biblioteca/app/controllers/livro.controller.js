@@ -136,7 +136,7 @@ exports.deleteAll = (req, res) => {
 
 
 /*
-//Metodo criado pela Catia que busca por autor, bem completinho (para estudo depois)
+//Metodo criado pela Catia que busca por autor, bem completinho (para estudo depois - Alias)
 exports.findAll = (req, res) => {  
     
     const autor = req.query.autor;
